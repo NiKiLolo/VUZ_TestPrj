@@ -1,0 +1,10 @@
+@TestPrj.API_HostAddress = http://localhost:5042
+
+GET {{TestPrj.API_HostAddress}}/weatherforecast/
+
+GET {{TestPrj.API_HostAddress}}/subwayline/
+
+GET {{TestPrj.API_HostAddress}}/subwaystation/
+Accept: application/json
+
+###
